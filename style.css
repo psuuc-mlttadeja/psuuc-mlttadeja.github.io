@@ -1,0 +1,237 @@
+html{
+
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+/*css for background color white and yellow
+--start--
+*/
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.yellow-section {
+    background-color: #FEB707;
+    flex: 1;
+}
+.white-section {
+    background-color: #F4F4F4;
+    flex: 1;
+}
+.header-logo{
+   margin-top: -0.5%;
+   font-family: 'Righteous', cursive;
+   font-size: 2vw;
+
+}
+
+/*--end--*/
+
+/*--header start--*/
+.header-navs{
+
+    font-size: 1.3vw;
+    font-weight: bold;
+    display: flex;
+    gap: 25%;
+    margin-left: 19%;
+    margin-top: 1.5%;  
+    position: fixed;
+
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    color: rgba(30,30, 30, 1);
+  
+}
+
+.header{
+
+    margin-top: -5%;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 5%;
+    width: 100%;
+    margin-left: -1%;
+    position: fixed;
+    z-index: 3;
+
+}
+/*--header end--*/
+
+/*--hero section start--*/
+
+.cuisine{
+
+    position: absolute;
+    width: 40%;
+    margin-left: 50%;
+    margin-top: 10%;
+    z-index: 1;
+ 
+}
+
+.project-name{
+
+    font-size:3vw ;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 19%;
+    font-weight: 900;
+    z-index: 2;
+  
+}
+
+.tagline{
+    
+    font-size: 1.6vw;
+    font-weight: lighter;
+    margin-top: -8%;
+    
+}
+
+.welcome-to{
+    position: relative;
+    z-index: 1;
+}
+
+.welcome-txt{
+    transform: rotate(90deg);
+    transform-origin: top left;
+    text-decoration: overline solid #F4F4F4  1.2vw;
+    margin-top: -41%;
+    font-size: 2.5vw;
+    margin-left: -5%;
+}
+
+.btn{
+    color: #000000;
+    background-color: #F4F4F4;
+    padding: 1.2%;
+    border: beige;
+    font-family: 'Righteous', cursive;
+    font-size: 1.5vw;
+    margin-top: 24%;
+    border-radius: 1rem;
+   
+}
+/*--hero section end--*/
+
+/*--footer section start--*/
+#footer{
+
+    background-color: #666666;
+     height: 300px;
+    margin-bottom: 3%;
+
+}
+/*--footer logo start--*/
+.footer-logo{
+
+    margin-left: 5%;
+    padding-top: 1%;
+
+}
+
+.logo{
+
+    font-family: 'Righteous', cursive;
+    font-size: 3vw;
+    margin-top: 0.1%;
+    position: absolute;
+    
+}
+/*--footer logo end--*/
+
+/*--footer link start--*/
+.footer-navs{
+
+    font-size: 1.2vw;
+    font-weight: bold;
+    display: flex;
+    gap: 5%;
+    margin-left: 5%;
+    color: #F4F4F4; 
+    position: absolute;
+    margin-top: 6%;
+
+}
+.footer-links{
+
+    color: #FEB707;
+}
+.disclaimer{
+    position: absolute;
+    margin-left: 5%;
+    font-size: 1.2vw;
+    margin-top: 9%;
+    color: #F4F4F4;
+}
+/*--footer link end--*/
+
+/*--social media start--*/
+.social-media{
+
+position: absolute;
+margin-left: 74%;
+
+   
+}
+.connected{
+
+    position: absolute;
+    font-size: 1.2vw;
+    font-weight: bolder;
+    margin-top: 2%;
+    color: #F4F4F4;
+ 
+}
+.socmed{
+
+    margin-top: 20%;
+    width: 14%;
+   
+}
+/*--social media end--*/
+
+/*--contact us start--*/
+.contacts-us{
+ 
+    position: absolute;
+    margin-left: 40%;
+    font-size: 1.2vw;
+   
+}
+
+.container-1 {
+    display: flex;   
+    align-items: center;
+    font-weight: bold;
+    color: #F4F4F4;
+   
+}
+
+.contact-app{
+    width: 10%;
+}
+/*--contact us end--*/
+
+
+/*--copyright--*/
+.copyright{
+    padding-top: 15%;
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+/*--footer section end--*/
+
